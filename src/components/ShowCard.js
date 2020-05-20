@@ -11,7 +11,7 @@ export default function ShowCard({tv}) {
         <h3 className={styles.cardTitle}>{tv.name}</h3>
         <h3 className={styles.cardSeasons}>{tv.season_number}</h3>
         <p className={styles.info}>
-          <small>RELEASE DATE: {tv.release_date}</small>
+          <small>First Air Date: {tv.first_air_date}</small>
         </p>
         <p className={styles.info}>
           <small>RATING: {tv.vote_average}</small>
